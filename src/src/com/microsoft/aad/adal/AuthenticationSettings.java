@@ -189,6 +189,8 @@ public enum AuthenticationSettings {
      * Set flag to use or skip broker.
      * 
      * @param useBroker False to not use broker
+     * Set flag to use broker. 
+     * By default, the flag value is false and ADAL will not talk to broker.
      */
     public void setUseBroker(boolean useBroker) {
         this.mUseBroker = useBroker;
